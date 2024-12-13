@@ -1,3 +1,6 @@
+#ifndef SORT_H
+#define SORT_H
+
 #include <stdlib.h>
 #include <stdio.h>
 /**
@@ -55,3 +58,7 @@ const int n;
 struct listint_s *prev;
 struct listint_s *next;
 } listint_t;
+
+void insertion_sort_list(listint_t **list);
+
+#endif
