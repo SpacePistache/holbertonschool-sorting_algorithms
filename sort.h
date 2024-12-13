@@ -60,7 +60,7 @@ list = list->next;
 printf("\n");
 }
 
-
 void insertion_sort_list(listint_t **list);
+void print_list(const listint_t *list);
 
 #endif
